@@ -3,7 +3,8 @@ Repository for data and figures from Akins et al. (2024) paper on LRDs in COSMOS
 
 `seds/*_sed.pdf`: This directory includes SED plots (as in Figures 4, 5, and 6 in the paper) for all 429 objects in the sample. Note that for objects with F1800W coverage, we omit the ACS/F814W cutouts, and PRIMER-NIRCam cutouts are not shown, but the photometry is used. 
 
-![plot](./seds/100652_sed.pdf)
+![Screenshot 2024-05-13 at 3 29 32 PM](https://github.com/hollisakins/Akins24_COSMOSWeb_LRDs/assets/38053732/18da3dd9-bf87-432b-8c02-68fd3404f8f1)
+
 
 `COSMOS-Web_LRDs_May2024.dat`: This is an extended and machine-readable form of Table 1 in the paper, including coordinates, photometry (in all available bands), and derived physical properties (from QSO and galaxy fits) for all 429 objects in the sample. The file is in the `ecsv` format, and can be read into python using `astropy`: 
 ```
