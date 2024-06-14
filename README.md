@@ -9,7 +9,7 @@ Repository for data and figures from Akins et al. (2024) paper on LRDs in COSMOS
 `COSMOS-Web_LRDs_Jun2024.dat`: This is an extended and machine-readable form of Table 1 in the paper, including coordinates, photometry (in all available bands), and derived physical properties (from QSO and galaxy fits) for all 434 objects in the sample. The file is in the `ecsv` format, and can be read into python using `astropy`: 
 ```
 from astropy.table import Table
-t = Table.read('COSMOS-Web_LRDs_May2024.dat', format='ascii.ecsv')
+t = Table.read('COSMOS-Web_LRDs_Jun2024.dat', format='ascii.ecsv')
 ```
 
 `COSMOS-Web_LRDs_bol_LF.dat`: This file provides the tabulated values for the LRD bolometric luminosity function from Figure 8. In the paper we provide the bolometric LF in 0.5 dex bins, here we additionally include the LF marginalized over the bin size, as described in the text. 
@@ -23,7 +23,7 @@ t = Table.read('COSMOS-Web_LRDs_May2024.dat', format='ascii.ecsv')
 
 
 Happy to provide additional data, please reach out [over email](mailto:hollis.akins@gmail.com). 
-If you use these data or intend to study these objects further, please cite the COSMOS-Web LRD paper
+If you use these data or intend to study these objects further, please cite the COSMOS-Web LRD paper:
 ```
 Akins, H. B., Casey, C. M., Lambrides, E. et al. 2024,
 arXiv: 24XX.XXXX, doi: XXXXXX
