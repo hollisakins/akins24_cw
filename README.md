@@ -25,6 +25,6 @@ t = Table.read('COSMOS-Web_LRDs.dat', format='ascii.ecsv')
 Happy to provide additional data, please reach out [over email](mailto:hollis.akins@gmail.com). 
 If you use these data or intend to study these objects further, please cite the COSMOS-Web LRD paper:
 ```
-Akins, H. B., Casey, C. M., Lambrides, E. et al. 2024,
-arXiv: 24XX.XXXX, doi: XXXXXX
+Akins, H. B., Casey, C. M., Lambrides, E. et al. 2024, arXiv: 2406.10341
+http://arxiv.org/abs/2406.10341
 ```
